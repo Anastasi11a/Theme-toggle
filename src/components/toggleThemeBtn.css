@@ -1,0 +1,33 @@
+.theme-toggle-container {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+  
+#theme-toggle-btn {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    border: none;
+    border-radius: 36px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+  
+#theme-toggle-btn:hover {
+    box-shadow: 1px 1px 25px #333;
+}
+  
+.dark-theme {
+    background-color: #333; 
+}
+  
+.dark-theme #theme-toggle-btn {
+    background-color: #fff;
+}
+
+.dark-theme #theme-toggle-btn:hover {
+    background-color: #fff;
+    box-shadow: 1px 1px 15px #fff;
+}
